@@ -179,9 +179,9 @@
         }
 
         // setMouseWheelScrolling(false);
-        addTouchHandler();
+        // addTouchHandler();
         addResizeHandler();
-        addScrollHandler();
+        // addScrollHandler();
 
         //adding internal class names to void problem with common ones
         var originalSections = $$(options.sectionSelector);

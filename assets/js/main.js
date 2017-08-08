@@ -39,13 +39,21 @@
 
 					// Images (in the format of 'url': 'alignment').
 						images: {
-							'images/bg02.jpg': 'center',
-							'images/bg01.jpg': 'center',
-							'images/bg03.jpg': 'center'
+							'images/8.jpg': 'center',
+							'images/9.jpg': 'center bottom',
+							'images/10.jpg': 'left bottom',
+							'images/11.jpg': 'right bottom',
+							'images/3.jpg': 'center',
+							// 'images/4.jpg': 'center',
+							// 'images/2.jpg': 'center',
+							'images/6.jpg': 'center',
+							'images/7.jpg': 'center',
+
+
 						},
 
 					// Delay.
-						delay: 2000
+						delay: 5000
 
 				};
 
@@ -145,7 +153,7 @@
 					// var $code = document.querySelectorAll("#signup-form #email").value;
 					// console.log($code);
 
-					var $code2 = event.srcElement[0].value;
+					var $code2 = event.target[0].value || event.srcElement[0].value;
 
 					event.stopPropagation();
 					event.preventDefault();

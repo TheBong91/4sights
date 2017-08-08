@@ -39,15 +39,15 @@
 
 					// Images (in the format of 'url': 'alignment').
 						images: {
-							'images/8.jpg': 'center',
-							'images/9.jpg': 'center bottom',
-							'images/10.jpg': 'left bottom',
-							'images/11.jpg': 'right bottom',
-							'images/3.jpg': 'center',
-							// 'images/4.jpg': 'center',
-							// 'images/2.jpg': 'center',
-							'images/6.jpg': 'center',
-							'images/7.jpg': 'center',
+							'images/xx.jpg': 'center',
+							// 'images/9.jpg': 'center bottom',
+							// 'images/10.jpg': 'left bottom',
+							// 'images/11.jpg': 'right bottom',
+							// 'images/3.jpg': 'center',
+							// // 'images/4.jpg': 'center',
+							// // 'images/2.jpg': 'center',
+							// 'images/6.jpg': 'center',
+							// 'images/7.jpg': 'center',
 
 
 						},

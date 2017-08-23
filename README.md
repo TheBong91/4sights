@@ -7,6 +7,7 @@ This site uses
 * css Template HTML5Up @assets/css/main.css
 * font-awesome @assets/fonts/
 * fullpage.js https://alvarotrigo.com/fullPage/ delivering the js to scroll through pages
+* Benchmarkmail Signup Form and Contacts Manager (check email to Thorsten/Lucas) https://www.benchmarkemail.com/
 
 
 ### Customization
@@ -79,4 +80,30 @@ The @assets/js/main.js file contains the customization
 
         }, 750);
 
+```
+
+* Code Validation (line 11 ff)
+```javascript
+// Vars.
+  var $form = document.querySelectorAll('#signup-form')[0],
+    $submit = document.querySelectorAll('#signup-form input[type="submit"]')[0],
+    // Validation Codes
+    $list = ["abc", "bcd", "asd", "code", "test"],
+    $message;
+
+```
+
+* Javscript for Benchmarkmail at index.html (lines 96 ff) is copied from https://www.benchmarkemail.com/
+
+* Initialisation of fullPager slide and config at index.html (lines 85 ff)
+```javascript
+<script type="text/javascript">
+  fullpage.initialize('#fullpage', {
+    anchors: ['enterCode', 'successCode'],
+    menu: '#menu',
+    css3:true,
+    keyboardScrolling:false,
+    animateAnchor: false
+  });
+</script>
 ```

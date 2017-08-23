@@ -4,9 +4,9 @@
 ### Ingredients
 
 This site uses
-* css Template HTML5Up @assets/css/main.css
-* font-awesome @assets/fonts/
-* fullpage.js https://alvarotrigo.com/fullPage/ delivering the js to scroll through pages
+* css Template HTML5Up @assets/css/main.css https://html5up.net/
+* font-awesome icons @assets/fonts/ http://fontawesome.io/
+* fullpage.js delivering the js to scroll through pages https://alvarotrigo.com/fullPage/
 * Benchmarkmail Signup Form and Contacts Manager (check email to Thorsten/Lucas) https://www.benchmarkemail.com/
 
 

@@ -136,7 +136,7 @@ body{
 
 .a-down{
   all: initial !important;
-  color: #fff;
+  color: #fff !important;
 }
 
 .a-down:hover{

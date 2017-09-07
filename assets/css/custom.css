@@ -183,7 +183,8 @@ body{
   border-radius: 6px;
   border: none;
   border: solid 2px #489A7F;
-  color: #489A7F;
+  background: #489A7F;
+  color: #fff;
   display: block;
   padding: 0 1em;
   text-decoration: none;
@@ -192,7 +193,7 @@ body{
 
 .links:hover{
   opacity: 0.7;
-  color: #489A7F !important;
+  color: #fff !important;
   text-decoration: none;
 }
 
